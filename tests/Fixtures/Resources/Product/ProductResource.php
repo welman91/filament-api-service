@@ -1,6 +1,6 @@
 <?php
 
-namespace Rupadana\ApiService\Tests\Fixtures\Resources\Product;
+namespace Welman91\ApiService\Tests\Fixtures\Resources\Product;
 
 use BackedEnum;
 use Filament\Forms\Components\TextInput;
@@ -8,8 +8,8 @@ use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
-use Rupadana\ApiService\Tests\Fixtures\Models\Product;
-use Rupadana\ApiService\Tests\Fixtures\Resources\Product\Api\ProductTransformer;
+use Welman91\ApiService\Tests\Fixtures\Models\Product;
+use Welman91\ApiService\Tests\Fixtures\Resources\Product\Api\ProductTransformer;
 
 class ProductResource extends Resource
 {

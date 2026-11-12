@@ -1,6 +1,6 @@
 <?php
 
-namespace Rupadana\ApiService\Traits;
+namespace Welman91\ApiService\Traits;
 
 use Illuminate\Http\JsonResponse;
 

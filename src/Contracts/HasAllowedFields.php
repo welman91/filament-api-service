@@ -1,6 +1,6 @@
 <?php
 
-namespace Rupadana\ApiService\Contracts;
+namespace Welman91\ApiService\Contracts;
 
 interface HasAllowedFields
 {

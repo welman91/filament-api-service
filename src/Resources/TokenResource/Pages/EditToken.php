@@ -1,10 +1,10 @@
 <?php
 
-namespace Rupadana\ApiService\Resources\TokenResource\Pages;
+namespace Welman91\ApiService\Resources\TokenResource\Pages;
 
 use Filament\Actions\DeleteAction;
 use Filament\Resources\Pages\EditRecord;
-use Rupadana\ApiService\Resources\TokenResource;
+use Welman91\ApiService\Resources\TokenResource;
 
 class EditToken extends EditRecord
 {

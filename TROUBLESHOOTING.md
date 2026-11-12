@@ -33,7 +33,7 @@ The package supports:
 
 2. **Check for conflicting dependencies:**
 ```bash
-composer why-not rupadana/filament-api-service
+composer why-not Welman91/filament-api-service
 ```
 
 3. **Ensure all migrations are run:**
@@ -54,7 +54,7 @@ php artisan view:clear
 Make sure the plugin is properly registered in your panel provider:
 
 ```php
-use Rupadana\ApiService\ApiServicePlugin;
+use Welman91\ApiService\ApiServicePlugin;
 
 public function panel(Panel $panel): Panel
 {
@@ -85,7 +85,7 @@ If the issue persists, please provide:
 
 ```php
 use BezhanSalleh\FilamentShield\FilamentShieldPlugin;
-use Rupadana\ApiService\ApiServicePlugin;
+use Welman91\ApiService\ApiServicePlugin;
 
 $panel->plugins([
     FilamentShieldPlugin::make(),
@@ -359,7 +359,7 @@ Create your own resource that extends the package's TokenResource:
 ```php
 namespace App\Filament\Resources;
 
-use Rupadana\ApiService\Resources\TokenResource as BaseTokenResource;
+use Welman91\ApiService\Resources\TokenResource as BaseTokenResource;
 
 class CustomTokenResource extends BaseTokenResource
 {
@@ -400,7 +400,7 @@ If you need this feature, please upvote the issue and describe your use case to 
 If you encounter an issue not covered in this guide:
 
 1. Check the [main documentation](README.md)
-2. Search [existing issues](https://github.com/rupadana/filament-api-service/issues)
+2. Search [existing issues](https://github.com/Welman91/filament-api-service/issues)
 3. Create a new issue with:
    - Detailed description of the problem
    - Steps to reproduce

@@ -1,11 +1,11 @@
 <?php
 
-namespace Rupadana\ApiService;
+namespace Welman91\ApiService;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;
-use Rupadana\ApiService\Models\Token;
-use Rupadana\ApiService\Policies\TokenPolicy;
+use Welman91\ApiService\Models\Token;
+use Welman91\ApiService\Policies\TokenPolicy;
 
 class AuthServiceProvider extends ServiceProvider
 {

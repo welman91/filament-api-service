@@ -1,6 +1,6 @@
 <?php
 
-namespace Rupadana\ApiService\Models;
+namespace Welman91\ApiService\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Laravel\Sanctum\PersonalAccessToken;

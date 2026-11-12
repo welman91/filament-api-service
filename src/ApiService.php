@@ -1,11 +1,11 @@
 <?php
 
-namespace Rupadana\ApiService;
+namespace Welman91\ApiService;
 
 use Filament\Panel;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
-use Rupadana\ApiService\Concerns\HasTenancy;
+use Welman91\ApiService\Concerns\HasTenancy;
 
 class ApiService
 {

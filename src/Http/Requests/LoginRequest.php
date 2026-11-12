@@ -1,6 +1,6 @@
 <?php
 
-namespace Rupadana\ApiService\Http\Requests;
+namespace Welman91\ApiService\Http\Requests;
 
 use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Foundation\Http\FormRequest;

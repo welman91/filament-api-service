@@ -2,7 +2,7 @@
 
 namespace {{ namespace }};
 
-use Rupadana\ApiService\ApiService;
+use Welman91\ApiService\ApiService;
 use {{ resource }};
 use Illuminate\Routing\Router;
 

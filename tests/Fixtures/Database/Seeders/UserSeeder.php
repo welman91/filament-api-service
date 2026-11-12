@@ -1,9 +1,9 @@
 <?php
 
-namespace Rupadana\ApiService\Tests\Fixtures\Database\Seeders;
+namespace Welman91\ApiService\Tests\Fixtures\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Rupadana\ApiService\Tests\Fixtures\Models\User;
+use Welman91\ApiService\Tests\Fixtures\Models\User;
 use Spatie\Permission\Models\Permission;
 use Spatie\Permission\Models\Role;
 
@@ -12,8 +12,8 @@ class UserSeeder extends Seeder
     public function run()
     {
         $user = User::create([
-            'name' => 'Rupadana',
-            'email' => 'rupadanawayan@gmail.com',
+            'name' => 'Welman91',
+            'email' => 'Welman91wayan@gmail.com',
             'password' => bcrypt('12345678'),
         ]);
 

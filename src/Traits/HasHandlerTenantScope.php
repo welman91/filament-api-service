@@ -1,6 +1,6 @@
 <?php
 
-namespace Rupadana\ApiService\Traits;
+namespace Welman91\ApiService\Traits;
 
 use Exception;
 use Filament\Facades\Filament;
@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Str;
-use Rupadana\ApiService\ApiService;
+use Welman91\ApiService\ApiService;
 
 trait HasHandlerTenantScope
 {

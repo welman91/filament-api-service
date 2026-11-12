@@ -1,6 +1,6 @@
 <?php
 
-namespace Rupadana\ApiService\Tests\Fixtures\Resources\Product\Api;
+namespace Welman91\ApiService\Tests\Fixtures\Resources\Product\Api;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;

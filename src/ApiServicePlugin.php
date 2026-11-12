@@ -1,12 +1,12 @@
 <?php
 
-namespace Rupadana\ApiService;
+namespace Welman91\ApiService;
 
 use Exception;
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 use Filament\Support\Commands\Concerns\CanManipulateFiles;
-use Rupadana\ApiService\Resources\TokenResource;
+use Welman91\ApiService\Resources\TokenResource;
 
 class ApiServicePlugin implements Plugin
 {

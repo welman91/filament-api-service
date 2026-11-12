@@ -1,9 +1,9 @@
 <?php
 
-namespace Rupadana\ApiService\Tests\Fixtures\Database\Seeders;
+namespace Welman91\ApiService\Tests\Fixtures\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Rupadana\ApiService\Tests\Fixtures\Models\Product;
+use Welman91\ApiService\Tests\Fixtures\Models\Product;
 
 class ProductsSeeder extends Seeder
 {

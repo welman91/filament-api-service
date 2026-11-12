@@ -1,6 +1,6 @@
 <?php
 
-namespace Rupadana\ApiService\Commands;
+namespace Welman91\ApiService\Commands;
 
 use Filament\Facades\Filament;
 use Filament\Panel;

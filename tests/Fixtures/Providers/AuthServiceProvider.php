@@ -1,10 +1,10 @@
 <?php
 
-namespace Rupadana\ApiService\Tests\Fixtures\Providers;
+namespace Welman91\ApiService\Tests\Fixtures\Providers;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
-use Rupadana\ApiService\Tests\Fixtures\Models\Product;
-use Rupadana\ApiService\Tests\Fixtures\Policies\ProductPolicy;
+use Welman91\ApiService\Tests\Fixtures\Models\Product;
+use Welman91\ApiService\Tests\Fixtures\Policies\ProductPolicy;
 
 class AuthServiceProvider extends ServiceProvider
 {

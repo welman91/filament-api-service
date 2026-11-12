@@ -3,9 +3,9 @@
 use Filament\Facades\Filament;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
-use Rupadana\ApiService\ApiService;
-use Rupadana\ApiService\Exceptions\InvalidTenancyConfiguration;
-use Rupadana\ApiService\Http\Controllers\AuthController;
+use Welman91\ApiService\ApiService;
+use Welman91\ApiService\Exceptions\InvalidTenancyConfiguration;
+use Welman91\ApiService\Http\Controllers\AuthController;
 
 Route::prefix('api')
 	->name('api.')

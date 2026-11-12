@@ -1,10 +1,10 @@
 <?php
 
-namespace Rupadana\ApiService\Resources\TokenResource\Pages;
+namespace Welman91\ApiService\Resources\TokenResource\Pages;
 
 use Filament\Actions\CreateAction;
 use Filament\Resources\Pages\ListRecords;
-use Rupadana\ApiService\Resources\TokenResource;
+use Welman91\ApiService\Resources\TokenResource;
 
 class ListTokens extends ListRecords
 {

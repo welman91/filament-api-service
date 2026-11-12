@@ -1,6 +1,6 @@
 <?php
 
-namespace Rupadana\ApiService\Resources;
+namespace Welman91\ApiService\Resources;
 
 use App\Models\User;
 use Filament\Actions\Action;
@@ -17,10 +17,10 @@ use Filament\Schemas\Schema;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
-use Rupadana\ApiService\ApiServicePlugin;
-use Rupadana\ApiService\Models\Token;
-use Rupadana\ApiService\Resources\TokenResource\Pages\CreateToken;
-use Rupadana\ApiService\Resources\TokenResource\Pages\ListTokens;
+use Welman91\ApiService\ApiServicePlugin;
+use Welman91\ApiService\Models\Token;
+use Welman91\ApiService\Resources\TokenResource\Pages\CreateToken;
+use Welman91\ApiService\Resources\TokenResource\Pages\ListTokens;
 
 class TokenResource extends Resource
 {

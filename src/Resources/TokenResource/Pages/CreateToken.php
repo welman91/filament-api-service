@@ -1,13 +1,13 @@
 <?php
 
-namespace Rupadana\ApiService\Resources\TokenResource\Pages;
+namespace Welman91\ApiService\Resources\TokenResource\Pages;
 
 use App\Models\User;
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Resources\Pages\CreateRecord;
 use Illuminate\Database\Eloquent\Model;
-use Rupadana\ApiService\Resources\TokenResource;
+use Welman91\ApiService\Resources\TokenResource;
 
 class CreateToken extends CreateRecord
 {

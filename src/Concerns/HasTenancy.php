@@ -1,6 +1,6 @@
 <?php
 
-namespace Rupadana\ApiService\Concerns;
+namespace Welman91\ApiService\Concerns;
 
 trait HasTenancy
 {

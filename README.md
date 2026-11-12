@@ -1,7 +1,7 @@
 # Filament Api Service
 
-[![Total Downloads](https://img.shields.io/packagist/dt/rupadana/filament-api-service.svg?style=flat-square)](https://packagist.org/packages/rupadana/filament-api-service)
-![Run Test](https://github.com/rupadana/filament-api-service/actions/workflows/run-tests.yml/badge.svg?branch=main)
+[![Total Downloads](https://img.shields.io/packagist/dt/Welman91/filament-api-service.svg?style=flat-square)](https://packagist.org/packages/Welman91/filament-api-service)
+![Run Test](https://github.com/Welman91/filament-api-service/actions/workflows/run-tests.yml/badge.svg?branch=main)
 
 Filament API Service is a powerful yet simple package that enables automatic API generation for FilamentPHP resources. It eliminates the need for manual route registration and provides built-in support for authentication, authorization, filtering, sorting, and more.
 
@@ -21,13 +21,13 @@ Filament API Service is a powerful yet simple package that enables automatic API
 Install the package via Composer:
 
 ```bash
-composer require rupadana/filament-api-service
+composer require Welman91/filament-api-service
 ```
 
 Register it in your Filament Provider:
 
 ```php
-use Rupadana\ApiService\ApiServicePlugin;
+use Welman91\ApiService\ApiServicePlugin;
 
 $panel->plugins([
     ApiServicePlugin::make()
@@ -257,7 +257,7 @@ Then your API resource endpoint will go through these middlewares first.
 Another method of adding/overriding middlewares is via the initialization of the plugin in your Panel Provider by adding the `middleware()` method like so:
 
 ```php
-use Rupadana\ApiService\ApiServicePlugin;
+use Welman91\ApiService\ApiServicePlugin;
 
 $panel->plugins([
     ApiServicePlugin::make()
@@ -326,4 +326,4 @@ The MIT License (MIT).
 
 ## Supported By
 
-<img src="https://res.cloudinary.com/rupadana/image/upload/v1707040287/phpstorm_xjblau.png" width="50px" height="50px"></img>
+<img src="https://res.cloudinary.com/Welman91/image/upload/v1707040287/phpstorm_xjblau.png" width="50px" height="50px"></img>

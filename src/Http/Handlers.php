@@ -1,20 +1,20 @@
 <?php
 
-namespace Rupadana\ApiService\Http;
+namespace Welman91\ApiService\Http;
 
 use Filament\Facades\Filament;
 use Filament\Panel;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Routing\Router;
-use Rupadana\ApiService\ApiService;
-use Rupadana\ApiService\Contracts\HasAllowedFields;
-use Rupadana\ApiService\Contracts\HasAllowedFilters;
-use Rupadana\ApiService\Contracts\HasAllowedIncludes;
-use Rupadana\ApiService\Contracts\HasAllowedSorts;
-use Rupadana\ApiService\Traits\HasHandlerTenantScope;
-use Rupadana\ApiService\Traits\HttpResponse;
-use Rupadana\ApiService\Transformers\DefaultTransformer;
+use Welman91\ApiService\ApiService;
+use Welman91\ApiService\Contracts\HasAllowedFields;
+use Welman91\ApiService\Contracts\HasAllowedFilters;
+use Welman91\ApiService\Contracts\HasAllowedIncludes;
+use Welman91\ApiService\Contracts\HasAllowedSorts;
+use Welman91\ApiService\Traits\HasHandlerTenantScope;
+use Welman91\ApiService\Traits\HttpResponse;
+use Welman91\ApiService\Transformers\DefaultTransformer;
 
 class Handlers
 {

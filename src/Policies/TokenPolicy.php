@@ -1,9 +1,9 @@
 <?php
 
-namespace Rupadana\ApiService\Policies;
+namespace Welman91\ApiService\Policies;
 
 use App\Models\User;
-use Rupadana\ApiService\Models\Token;
+use Welman91\ApiService\Models\Token;
 
 class TokenPolicy
 {

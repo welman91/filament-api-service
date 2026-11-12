@@ -1,6 +1,6 @@
 <?php
 
-namespace Rupadana\ApiService\Tests\Fixtures\Providers;
+namespace Welman91\ApiService\Tests\Fixtures\Providers;
 
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\DisableBladeIconComponents;
@@ -16,8 +16,8 @@ use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\AuthenticateSession;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
-use Rupadana\ApiService\ApiServicePlugin;
-use Rupadana\ApiService\Tests\Fixtures\Resources\Product\ProductResource;
+use Welman91\ApiService\ApiServicePlugin;
+use Welman91\ApiService\Tests\Fixtures\Resources\Product\ProductResource;
 
 class AdminPanelProvider extends PanelProvider
 {

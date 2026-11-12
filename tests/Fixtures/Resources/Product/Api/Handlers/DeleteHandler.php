@@ -1,10 +1,10 @@
 <?php
 
-namespace Rupadana\ApiService\Tests\Fixtures\Resources\Product\Api\Handlers;
+namespace Welman91\ApiService\Tests\Fixtures\Resources\Product\Api\Handlers;
 
 use Illuminate\Http\Request;
-use Rupadana\ApiService\Http\Handlers;
-use Rupadana\ApiService\Tests\Fixtures\Resources\Product\ProductResource;
+use Welman91\ApiService\Http\Handlers;
+use Welman91\ApiService\Tests\Fixtures\Resources\Product\ProductResource;
 
 class DeleteHandler extends Handlers
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rupadana\ApiService\Tests\Fixtures\Models;
+namespace Welman91\ApiService\Tests\Fixtures\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

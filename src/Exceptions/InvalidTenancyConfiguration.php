@@ -1,6 +1,6 @@
 <?php
 
-namespace Rupadana\ApiService\Exceptions;
+namespace Welman91\ApiService\Exceptions;
 
 use Exception;
 

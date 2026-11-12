@@ -1,6 +1,6 @@
 <?php
 
-// translations for Rupadana/ApiService
+// translations for Welman91/ApiService
 return [
 
     /*

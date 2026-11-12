@@ -1,6 +1,6 @@
 <?php
 
-namespace Rupadana\ApiService;
+namespace Welman91\ApiService;
 
 use Dedoc\Scramble\Scramble;
 use Dedoc\Scramble\Support\Generator\OpenApi;
@@ -11,10 +11,10 @@ use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
 use Laravel\Sanctum\Http\Middleware\CheckAbilities;
 use Laravel\Sanctum\Http\Middleware\CheckForAnyAbility;
-use Rupadana\ApiService\Commands\MakeApiHandlerCommand;
-use Rupadana\ApiService\Commands\MakeApiRequest;
-use Rupadana\ApiService\Commands\MakeApiServiceCommand;
-use Rupadana\ApiService\Commands\MakeApiTransformerCommand;
+use Welman91\ApiService\Commands\MakeApiHandlerCommand;
+use Welman91\ApiService\Commands\MakeApiRequest;
+use Welman91\ApiService\Commands\MakeApiServiceCommand;
+use Welman91\ApiService\Commands\MakeApiTransformerCommand;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
@@ -39,7 +39,7 @@ class ApiServiceServiceProvider extends PackageServiceProvider
             ->hasInstallCommand(function (InstallCommand $command) {
                 $command
                     ->publishConfigFile()
-                    ->askToStarRepoOnGitHub('rupadana/filament-api-service');
+                    ->askToStarRepoOnGitHub('Welman91/filament-api-service');
             })
             ->hasRoute('api');
 
@@ -106,7 +106,7 @@ class ApiServiceServiceProvider extends PackageServiceProvider
 
     protected function getAssetPackageName(): ?string
     {
-        return 'rupadana/api-service';
+        return 'Welman91/api-service';
     }
 
     /**

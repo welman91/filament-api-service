@@ -1,6 +1,6 @@
 <?php
 
-namespace Rupadana\ApiService\Tests\Fixtures\Models;
+namespace Welman91\ApiService\Tests\Fixtures\Models;
 
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Panel;

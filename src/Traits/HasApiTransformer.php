@@ -1,8 +1,8 @@
 <?php
 
-namespace Rupadana\ApiService\Traits;
+namespace Welman91\ApiService\Traits;
 
-use Rupadana\ApiService\Transformers\DefaultTransformer;
+use Welman91\ApiService\Transformers\DefaultTransformer;
 
 trait HasApiTransformer
 {

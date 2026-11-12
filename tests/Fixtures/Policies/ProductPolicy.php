@@ -1,10 +1,10 @@
 <?php
 
-namespace Rupadana\ApiService\Tests\Fixtures\Policies;
+namespace Welman91\ApiService\Tests\Fixtures\Policies;
 
 use Illuminate\Auth\Access\HandlesAuthorization;
-use Rupadana\ApiService\Tests\Fixtures\Models\Product;
-use Rupadana\ApiService\Tests\Fixtures\Models\User;
+use Welman91\ApiService\Tests\Fixtures\Models\Product;
+use Welman91\ApiService\Tests\Fixtures\Models\User;
 
 class ProductPolicy
 {

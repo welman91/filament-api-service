@@ -1,6 +1,6 @@
 <?php
 
-namespace Rupadana\ApiService\Tests\WithoutPanelPrefix;
+namespace Welman91\ApiService\Tests\WithoutPanelPrefix;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
@@ -18,9 +18,9 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Laravel\Sanctum\SanctumServiceProvider;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Rupadana\ApiService\ApiServiceServiceProvider;
-use Rupadana\ApiService\Tests\Fixtures\Providers\AdminPanelProvider;
-use Rupadana\ApiService\Tests\Fixtures\Providers\AuthServiceProvider;
+use Welman91\ApiService\ApiServiceServiceProvider;
+use Welman91\ApiService\Tests\Fixtures\Providers\AdminPanelProvider;
+use Welman91\ApiService\Tests\Fixtures\Providers\AuthServiceProvider;
 use RyanChandler\BladeCaptureDirective\BladeCaptureDirectiveServiceProvider;
 use Spatie\Permission\Models\Permission;
 use Spatie\Permission\Models\Role;

@@ -4,7 +4,7 @@ namespace {{ handlersNamespace }};
 
 use App\Filament\Resources\SettingResource;
 use {{ resource }};
-use Rupadana\ApiService\Http\Handlers;
+use Welman91\ApiService\Http\Handlers;
 use Spatie\QueryBuilder\QueryBuilder;
 use Illuminate\Http\Request;
 use {{ transformerClass }};

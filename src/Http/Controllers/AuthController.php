@@ -1,10 +1,10 @@
 <?php
 
-namespace Rupadana\ApiService\Http\Controllers;
+namespace Welman91\ApiService\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Auth;
-use Rupadana\ApiService\Http\Requests\LoginRequest;
+use Welman91\ApiService\Http\Requests\LoginRequest;
 
 class AuthController
 {

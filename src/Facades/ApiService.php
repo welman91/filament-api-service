@@ -1,16 +1,16 @@
 <?php
 
-namespace Rupadana\ApiService\Facades;
+namespace Welman91\ApiService\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Rupadana\ApiService\ApiService
+ * @see \Welman91\ApiService\ApiService
  */
 class ApiService extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Rupadana\ApiService\ApiService::class;
+        return \Welman91\ApiService\ApiService::class;
     }
 }

@@ -1,24 +1,24 @@
 {
-    "name": "rupadana/filament-api-service",
+    "name": "Welman91/filament-api-service",
     "description": "A simple api service for supporting filamentphp",
     "keywords": [
-        "rupadana",
+        "Welman91",
         "laravel",
         "api-service",
         "api",
         "filament",
         "filament api"
     ],
-    "homepage": "https://github.com/rupadana/api-service",
+    "homepage": "https://github.com/Welman91/api-service",
     "support": {
-        "issues": "https://github.com/rupadana/api-service/issues",
-        "source": "https://github.com/rupadana/api-service"
+        "issues": "https://github.com/Welman91/api-service/issues",
+        "source": "https://github.com/Welman91/api-service"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Rupadana",
-            "email": "rupadanawayan@gmail.com",
+            "name": "Welman91",
+            "email": "Welman91wayan@gmail.com",
             "role": "Developer"
         }
     ],
@@ -44,12 +44,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Rupadana\\ApiService\\": "src/"
+            "Welman91\\ApiService\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rupadana\\ApiService\\Tests\\": "tests/"
+            "Welman91\\ApiService\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -71,11 +71,11 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rupadana\\ApiService\\ApiServiceServiceProvider",
-                "Rupadana\\ApiService\\AuthServiceProvider"
+                "Welman91\\ApiService\\ApiServiceServiceProvider",
+                "Welman91\\ApiService\\AuthServiceProvider"
             ],
             "aliases": {
-                "ApiService": "Rupadana\\ApiService\\Facades\\ApiService"
+                "ApiService": "Welman91\\ApiService\\Facades\\ApiService"
             }
         }
     },
