@@ -6,19 +6,21 @@
         "laravel",
         "api-service",
         "api",
+        "filamentphp",
         "filament",
+        "filament-plugin",
         "filament api"
     ],
-    "homepage": "https://github.com/Welman91/api-service",
+    "homepage": "https://github.com/welman91/filament-api-service",
     "support": {
-        "issues": "https://github.com/Welman91/api-service/issues",
-        "source": "https://github.com/Welman91/api-service"
+        "issues": "https://github.com/welman91/filament-api-service/issues",
+        "source": "https://github.com/welman91/filament-api-service"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Welman91",
-            "email": "Welman91wayan@gmail.com",
+            "name": "Welman",
+            "email": "welman91ers@gmail.com",
             "role": "Developer"
         }
     ],
